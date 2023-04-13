@@ -28,6 +28,11 @@ Simply copy paste the whole repo and run ```python3 apiSQLi.py```
 The application listens on port 5000 and can be accessed via the URL http://localhost:5000.
 
 
+![image](https://user-images.githubusercontent.com/121772502/231851870-3b52f8d1-f183-4ea8-9cd2-122c5238639d.png)
+
+![image](https://user-images.githubusercontent.com/121772502/231852002-f0abdd22-40cf-455b-9f80-84ac4f21ac0d.png)
+
+
 POST
 - http://localhost:5000/
 - http://localhost:5000/vulnerable
