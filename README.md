@@ -72,6 +72,8 @@ Additionally, the query variables in functions should be modified to match the t
 query = "SELECT * FROM [SalesLT].[Address] WHERE AddressID = ?"
 ```
 
+All values that need to be changed are marked in the code as: "XXXXXXXXXXXXXXXXXXXX"
+
 ## Securing the queries
 
 -  The input validation checks whether the search_term parameter is a valid integer value. If it is not, the function returns a 400 Bad Request response with an error message.
