@@ -19,7 +19,10 @@ It has four routes:
     - This Function is used to test the database connection. 
     - Simply go to http://localhost:5000/test.
 
-The application listens on port 5000 and can be accessed via the URL http://localhost:5000/.
+## Running the App
+
+Simply copy paste the whole repo and run ```python3 apiSQLi.py```
+The application listens on port 5000 and can be accessed via the URL http://localhost:5000.
 
 POST
 - http://localhost:5000/
@@ -64,10 +67,6 @@ Additionally, the query variables in functions should be modified to match the t
 ```
 query = "SELECT * FROM [SalesLT].[Address] WHERE AddressID = ?"
 ```
-
-## Running the App
-
-Simply copy paste the whole repo and run ```python3 apiSQL1.py```
 
 ## Securing the queries
 
