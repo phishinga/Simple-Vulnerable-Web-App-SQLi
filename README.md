@@ -90,10 +90,6 @@ query = "SELECT * FROM [SalesLT].[Address] WHERE AddressID = ?"
 
 ## Screens
 
-![image](https://user-images.githubusercontent.com/121772502/231851870-3b52f8d1-f183-4ea8-9cd2-122c5238639d.png)
-
-![image](https://user-images.githubusercontent.com/121772502/231852002-f0abdd22-40cf-455b-9f80-84ac4f21ac0d.png)
-
 ![image](https://user-images.githubusercontent.com/121772502/231852130-71fe4527-7ec3-4adc-b58d-ad9fdf5d4f06.png)
 
 
