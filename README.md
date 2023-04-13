@@ -65,6 +65,10 @@ Additionally, the query variables in functions should be modified to match the t
 query = "SELECT * FROM [SalesLT].[Address] WHERE AddressID = ?"
 ```
 
+## Running the App
+
+Simply copy paste the whole repo and run ```python3 apiSQL1.py```
+
 ## Securing the queries
 
 -  The input validation checks whether the search_term parameter is a valid integer value. If it is not, the function returns a 400 Bad Request response with an error message.
