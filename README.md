@@ -2,7 +2,6 @@
 Simple vulnerable to SQLi Python Flask web application that connects to a Microsoft SQL Server database and provides a simple API for searching and retrieving data.
 
 ![image](https://user-images.githubusercontent.com/121772502/231738945-201f9836-f6ab-45d1-8107-6d47413ea1af.png)
-
 <sub>Please note: The repo contains only the app part, the underlying infrastructure needs to be deployed separately.</sub>
 
 It has four routes:
