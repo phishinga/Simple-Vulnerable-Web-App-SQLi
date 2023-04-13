@@ -24,20 +24,20 @@ The app has five routes:
 
 ## Running the App
 
-Simply copy paste the whole repo and run ```python3 apiSQLi.py```
-The application listens on port 5000 and can be accessed via the URLs:
-
-POST
-- http://localhost:5000/
-- http://localhost:5000/vulnerable
-- Query that gets back all the results from table: ```' OR 1=1 --```
+- Simply copy paste the whole repo and run ```python3 apiSQLi.py```
+- The application listens on port 5000 and can be accessed via the URLs:
 
 GET
 - http://localhost:5000/secure_query?id=9
 - http://localhost:5000/vulnerable_query?id=9
 - Query that gets back all the results from table: 1 ```OR 1=1 --```
 
-### Few Examples:
+POST
+- http://localhost:5000/
+- http://localhost:5000/vulnerable
+- Query that gets back all the results from table: ```' OR 1=1 --```
+
+### Few POST Examples:
 
 ![image](https://user-images.githubusercontent.com/121772502/231851870-3b52f8d1-f183-4ea8-9cd2-122c5238639d.png)
 
