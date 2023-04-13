@@ -64,6 +64,7 @@ To successfully connect to the SQL Server database, you'll need to populate the 
 - username: This should be the username for the database user that you want to authenticate as.
 - password: This should be the password for the database user that you want to authenticate as.
 - odbc_driver: This should be the path to the ODBC driver that you want to use to connect to the SQL Server instance. 
+
     - Mine was: "/opt/microsoft/msodbcsql18/lib64/libmsodbcsql-18.0.so.1.1"
 
 Additionally, the query variables in functions should be modified to match the table and column names in your own database schema.:
@@ -72,7 +73,7 @@ Additionally, the query variables in functions should be modified to match the t
 query = "SELECT * FROM [SalesLT].[Address] WHERE AddressID = ?"
 ```
 
-All values that need to be changed are marked in the code as: "XXXXXXXXXXXXXXXXXXXX"
+- All values that need to be changed are marked in the code as: "XXXXXXXXXXXXXXXXXXXX"
 
 ## Securing the queries
 
