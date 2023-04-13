@@ -4,7 +4,7 @@ Simple vulnerable to SQLi Python Flask web application that connects to a Micros
 ![image](https://user-images.githubusercontent.com/121772502/231738945-201f9836-f6ab-45d1-8107-6d47413ea1af.png)
 <sub>Please note: The repo contains only the app part, the underlying infrastructure needs to be deployed separately.</sub>
 
-It has four routes:
+The app has five routes:
 
  1. **vulnerable():** 
     - Vulnerable to SQL injection attacks; accepts search term input as a string, concatenates it directly into the SQL query string, and returns the query results. Uses POST method. 
