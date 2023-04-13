@@ -88,5 +88,14 @@ query = "SELECT * FROM [SalesLT].[Address] WHERE AddressID = ?"
 
 ![image](https://user-images.githubusercontent.com/121772502/231740531-17eff377-197d-437c-a758-74c4289a85b1.png)
 
+## Screens
+
+![image](https://user-images.githubusercontent.com/121772502/231851870-3b52f8d1-f183-4ea8-9cd2-122c5238639d.png)
+
+![image](https://user-images.githubusercontent.com/121772502/231852002-f0abdd22-40cf-455b-9f80-84ac4f21ac0d.png)
+
+![image](https://user-images.githubusercontent.com/121772502/231852130-71fe4527-7ec3-4adc-b58d-ad9fdf5d4f06.png)
+
+
 ## Disclaimer
 Please note, that this project was created simply for demonstrating purposes and servers only as a playground for anyone who wants to learn more about SQLi. If you are looking for more robust product go search for Damn Vulnerable Web Apps as these provide more challanges to play with. 
