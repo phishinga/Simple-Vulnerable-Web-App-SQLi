@@ -26,6 +26,7 @@ The app has five routes:
 
 Simply copy paste the whole repo and run ```python3 apiSQLi.py```
 The application listens on port 5000 and can be accessed via the URL http://localhost:5000.
+If you want to understand the code check out this: https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
 
 POST
 - http://localhost:5000/
