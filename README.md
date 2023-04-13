@@ -46,6 +46,8 @@ GET
 
 ## Dependencies and requirements
 
+Please note: The repo contains only the app part, the underlying infrastructure needs to be deployed separately.
+
 - Flask: This is a web application framework for Python that provides tools for building web applications, including HTTP routing, template rendering, and request handling. It is used to create the web application and define the routes.
 - Pyodbc: This is a Python module for accessing databases using ODBC drivers. It is used to connect to the SQL database and execute SQL queries.
 - Microsoft ODBC Driver for SQL Server: This is a driver that allows applications to connect to a Microsoft SQL Server database. It is used by Pyodbc to establish a connection to the database. Available here: https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver16&tabs=alpine18-install%2Calpine17-install%2Cdebian8-install%2Credhat7-13-install%2Crhel7-offline
