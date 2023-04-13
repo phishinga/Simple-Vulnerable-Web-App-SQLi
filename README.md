@@ -26,7 +26,7 @@ The app has five routes:
 
 Simply copy paste the whole repo and run ```python3 apiSQLi.py```
 The application listens on port 5000 and can be accessed via the URL http://localhost:5000.
-If you want to understand the code check out this: https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
+
 
 POST
 - http://localhost:5000/
@@ -51,9 +51,9 @@ To install these dependencies, you can use pip, the package installer for Python
 pip install flask pyodbc jinja2
 ```
 
-In addition to the above dependencies, you will also need to have a SQL Server instance to connect to, and a database with tables that match the SQL queries used in the application.
-
-Finally, the application runs on port 5000 by default, so you will need to ensure that this port is open and available on your machine.
+- In addition to the above dependencies, you will also need to have a SQL Server instance to connect to, and a database with tables that match the SQL queries used in the application.
+- Also, the application runs on port 5000 by default, so you will need to ensure that this port is open and available on your machine.
+- Finally, if you want to understand the code check out this: https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
 
 ## Variables
 
