@@ -25,13 +25,7 @@ The app has five routes:
 ## Running the App
 
 Simply copy paste the whole repo and run ```python3 apiSQLi.py```
-The application listens on port 5000 and can be accessed via the URL http://localhost:5000.
-
-
-![image](https://user-images.githubusercontent.com/121772502/231851870-3b52f8d1-f183-4ea8-9cd2-122c5238639d.png)
-
-![image](https://user-images.githubusercontent.com/121772502/231852002-f0abdd22-40cf-455b-9f80-84ac4f21ac0d.png)
-
+The application listens on port 5000 and can be accessed via the URLs:
 
 POST
 - http://localhost:5000/
@@ -42,7 +36,14 @@ GET
 - http://localhost:5000/secure_query?id=9
 - http://localhost:5000/vulnerable_query?id=9
 - Query that gets back all the results from table: 1 ```OR 1=1 --```
-      
+
+### Few Examples:
+
+![image](https://user-images.githubusercontent.com/121772502/231851870-3b52f8d1-f183-4ea8-9cd2-122c5238639d.png)
+
+![image](https://user-images.githubusercontent.com/121772502/231852002-f0abdd22-40cf-455b-9f80-84ac4f21ac0d.png)
+
+
 ## Dependencies and requirements
 
 - Flask: This is a web application framework for Python that provides tools for building web applications, including HTTP routing, template rendering, and request handling. It is used to create the web application and define the routes.
