@@ -44,7 +44,7 @@ GET
 ![image](https://user-images.githubusercontent.com/121772502/231852002-f0abdd22-40cf-455b-9f80-84ac4f21ac0d.png)
 
 
-## Dependencies and requirements
+## Dependencies and Requirements
 
 Please note: The repo contains only the app part, the underlying infrastructure needs to be deployed separately.
 
