@@ -79,5 +79,9 @@ query = "SELECT * FROM [SalesLT].[Address] WHERE AddressID = ?"
 - The function now returns a rendered template with the results of the query.
 - With these changes, the function now uses parameterized queries to prevent SQL injection attacks, and input validation to ensure that the search_term parameter is a valid integer value.
 
+## SQLMap Results
+
+![image](https://user-images.githubusercontent.com/121772502/231740531-17eff377-197d-437c-a758-74c4289a85b1.png)
+
 ## Disclaimer
 Please note, that this project was created simply for demonstrating purposes and servers only as a playground for anyone who wants to learn more about SQLi. If you are looking for more robust product go search for Damn Vulnerable Web Apps as these provide more challanges to play with.
