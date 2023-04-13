@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Search Results</title>
+  </head>
+  <body>
+    <h1>Search Results</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>ProductID</th>
+          <th>Name</th>
+          <th>ProductNumber</th>
+          <th>Color</th>
+          <th>StandardCost</th>
+          <th>ListPrice</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>ProductCategoryID</th>
+          <th>ProductModelID</th>
+          <th>SellStartDate</th>
+          <th>SellEndDate</th>
+          <th>DiscontinuedDate</th>
+          <th>ThumbNailPhoto</th>
+          <th>ThumbnailPhotoFileName</th>
+          <th>rowguid</th>
+          <th>ModifiedDate</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in results %}
+        <tr>
+          <td>{{ row.ProductID }}</td>
+          <td>{{ row.Name }}</td>
+          <td>{{ row.ProductNumber }}</td>
+          <td>{{ row.Color }}</td>
+          <td>{{ row.StandardCost }}</td>
+          <td>{{ row.ListPrice }}</td>
+          <td>{{ row.Size }}</td>
+          <td>{{ row.Weight }}</td>
+          <td>{{ row.ProductCategoryID }}</td>
+          <td>{{ row.ProductModelID }}</td>
+          <td>{{ row.SellStartDate }}</td>
+          <td>{{ row.SellEndDate }}</td>
+          <td>{{ row.DiscontinuedDate }}</td>
+          <td>{{ row.ThumbNailPhoto }}</td>
+          <td>{{ row.ThumbnailPhotoFileName }}</td>
+          <td>{{ row.rowguid }}</td>
+          <td>{{ row.ModifiedDate }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
