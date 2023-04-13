@@ -88,7 +88,7 @@ query = "SELECT * FROM [SalesLT].[Address] WHERE AddressID = ?"
 
 ![image](https://user-images.githubusercontent.com/121772502/231740531-17eff377-197d-437c-a758-74c4289a85b1.png)
 
-## Screens
+## SQLi Results
 
 ![image](https://user-images.githubusercontent.com/121772502/231852130-71fe4527-7ec3-4adc-b58d-ad9fdf5d4f06.png)
 
