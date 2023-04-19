@@ -25,7 +25,8 @@ The app has five routes:
 ## Running the App
 
 - Simply copy paste the whole repo and run ```python3 apiSQLi.py```
-- The application listens on port 5000 and can be accessed via the URLs:
+- The application listens on port 5000 and can be accessed via the URLs bellow.
+- Please note: The repo contains only the app part, the underlying infrastructure needs to be deployed separately.
 
 GET
 - http://localhost:5000/secure_query?id=9
